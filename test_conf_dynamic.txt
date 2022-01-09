@@ -1,0 +1,7 @@
+org_context : org_id,context_key,context_value # id
+organization_scopes : org_id,scope_id # id
+flat_dimension_columns : dim_table_id_str,column_name,scope_id # column_id
+hierarchical_dimension_columns : dim_table_id_str,column_name,scope_id # column_id
+scd_dimension_columns : dim_table_id_str,column_name,scope_id # column_id
+provider_dimension_mapping : provider_table_id_str,provider_col_name,dimension_column_id_str # id
+transformations : provider_table_id_str,scope_id # id

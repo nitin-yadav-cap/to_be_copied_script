@@ -1,0 +1,8 @@
+banding#id
+config_keys#id
+custom_field_transformation#custom_table_id
+custom_table#id
+dimension_groups#column_id
+external_flat_dimension_columns#column_id
+kpi_group_dimension#id
+source_data_dump#id

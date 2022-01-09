@@ -1,0 +1,14 @@
+attribution_strategy # strategy_id
+config_key_values # id
+dimension # dim_id
+dimension_attribute_value_tables # id
+dimension_table # id
+fact_table # id
+mongo_collections # id
+mongo_structs # id
+organization_scopes # id
+org_context # id
+providers # id
+provider_tables # id
+source_schema_end_point_mapping # id
+summary_table # id

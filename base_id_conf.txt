@@ -1,0 +1,45 @@
+attribution_strategy : strategy name, target fact name
+attribution_strategy_mapping : fact table id , fact column id, scope id
+config_key_values : key, scope id
+dimension: fact col link , scope id
+dimension_attribute_value_tables : table prefix , scope
+dimension_table : name , scope id
+fact_context : fact table id, context key
+fact_fk_constraints : column id, table id, ref col id, ref table id, scope id
+fact_kpis: table id, column id, scope id
+fact_table : name, scope id
+fact_table_column : fact table id, name, scope id
+fact_table_run_type : table id, table type
+fact_table_standard_condition : fact table id, name, scope id
+flat_dimension_columns : dim table id, column name, scpope id
+hierarchical_dimension_columns : dim table id, column name , scope id
+logical_summary_table : summary table id, name, scope id
+logical_view : name ,select table id, scope id
+logical_view_column_definition : view id, select col id, scope id
+mongo_collections : name, scope id
+mongo_source_columns : source column id, scope id
+mongo_source_tables : source table id, mongo collection id, scope id
+mongo_structs : name , scope id
+organization_scopes : org id, scope id
+org_context : org id, context key, context value
+provider_tables : name
+provider_dimension_mapping : provider table id, provider column id, scope id
+scd_dimension_columns : dim table id, column name, scpope id
+source_schema_end_point_mapping : db name, endpoint name, dialect
+source_shard_table_info : table id, endpoint id
+source_tables : name , endpoint id
+source_table_column : table id, name
+source_table_fk_constraints : constraint name, column id, ref column id
+source_target_column_mapping : table mapping id, target column id, scope id
+source_target_dimension_column_mapping : table mapping id, dimension id, scope id
+source_target_dimension_mapping : fact table id, source table id
+source_target_table_mapping : fact table id, source table id
+summary_condition : name , ref table id, scope if
+summary_groupBy : ref table id, column id, scope id
+summary_table : name ,scope id
+summary_table_column : summary table id, name, scope id
+summary_table_column_definition : summary table id, column id, scope id
+transformations : provider table id, scope id
+transpose_columns : transpose table id, transpose column id, scope id
+transpose_tables : source table id, scope id
+union_mapping : table mapping id, column id, scope id

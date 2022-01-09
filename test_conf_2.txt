@@ -1,0 +1,16 @@
+mongo_collections : id, end_point_id, pkey_columns, primary_mongo_struct_id, dependent_struct_ids
+mongo_structs : id
+source_schema_end_point_mapping : id
+source_tables : id, end_point_id, partition_key_column, timestamp_column, pkey_columns
+source_shard_table_info : table_id, end_point_id
+source_table_column : id, table_id
+source_table_fk_constraints : id, column_id, ref_column_id
+mongo_source_tables : source_table_id, mongo_collection_id
+mongo_source_columns : source_column_id, source_table_id
+dimension_table : id, auto_update_cols
+flat_dimension_columns : column_id, dim_table_id, functional_dependency_column, unique_value_dependent_column, scd_dimension_table_id, location_type_entity_id
+hierarchical_dimension_columns : column_id, dim_table_id, functional_dependency_column, unique_value_dependent_column, location_type_entity_id
+scd_dimension_columns : column_id, dim_table_id, functional_dependency_column, unique_value_dependent_column, location_type_entity_id
+provider_tables : id, provider_id
+provider_dimension_mapping : id, provider_table_id, provider_col_name, dim_table_id, dimension_column_id
+transformations : id, template, provider_id, provider_table_id
